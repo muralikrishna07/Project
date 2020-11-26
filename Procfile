@@ -1,1 +1,1 @@
-worker : python3.7 manage.py runserver
+web: gunicorn webpage.wsgi 
